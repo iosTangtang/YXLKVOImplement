@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BDC83A1D0AB4B300031794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC8391D0AB4B300031794 /* main.m */; };
+		66BDC83D1D0AB4B300031794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC83C1D0AB4B300031794 /* AppDelegate.m */; };
+		66BDC8401D0AB4B300031794 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC83F1D0AB4B300031794 /* ViewController.m */; };
+		66BDC8431D0AB4B300031794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BDC8411D0AB4B300031794 /* Main.storyboard */; };
+		66BDC8451D0AB4B300031794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BDC8441D0AB4B300031794 /* Assets.xcassets */; };
+		66BDC8481D0AB4B300031794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BDC8461D0AB4B300031794 /* LaunchScreen.storyboard */; };
+		66BDC8531D0AB4B300031794 /* YXLKVOImplementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC8521D0AB4B300031794 /* YXLKVOImplementTests.m */; };
+		66BDC85E1D0AB4B300031794 /* YXLKVOImplementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC85D1D0AB4B300031794 /* YXLKVOImplementUITests.m */; };
+		66BDC86D1D0AB4C800031794 /* NSObject+YXLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC86C1D0AB4C800031794 /* NSObject+YXLKVO.m */; };
+		66BDC8701D0ACA0C00031794 /* YXLObserverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC86F1D0ACA0C00031794 /* YXLObserverInfo.m */; };
+		66BDC8731D0AE4CC00031794 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDC8721D0AE4CC00031794 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BDC84F1D0AB4B300031794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BDC82D1D0AB4B300031794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BDC8341D0AB4B300031794;
+			remoteInfo = YXLKVOImplement;
+		};
+		66BDC85A1D0AB4B300031794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BDC82D1D0AB4B300031794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BDC8341D0AB4B300031794;
+			remoteInfo = YXLKVOImplement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66BDC8351D0AB4B300031794 /* YXLKVOImplement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXLKVOImplement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BDC8391D0AB4B300031794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66BDC83B1D0AB4B300031794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66BDC83C1D0AB4B300031794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66BDC83E1D0AB4B300031794 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66BDC83F1D0AB4B300031794 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66BDC8421D0AB4B300031794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BDC8441D0AB4B300031794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BDC8471D0AB4B300031794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BDC8491D0AB4B300031794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BDC84E1D0AB4B300031794 /* YXLKVOImplementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXLKVOImplementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BDC8521D0AB4B300031794 /* YXLKVOImplementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLKVOImplementTests.m; sourceTree = "<group>"; };
+		66BDC8541D0AB4B300031794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BDC8591D0AB4B300031794 /* YXLKVOImplementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXLKVOImplementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BDC85D1D0AB4B300031794 /* YXLKVOImplementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLKVOImplementUITests.m; sourceTree = "<group>"; };
+		66BDC85F1D0AB4B300031794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BDC86B1D0AB4C800031794 /* NSObject+YXLKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YXLKVO.h"; sourceTree = "<group>"; };
+		66BDC86C1D0AB4C800031794 /* NSObject+YXLKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YXLKVO.m"; sourceTree = "<group>"; };
+		66BDC86E1D0ACA0C00031794 /* YXLObserverInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLObserverInfo.h; sourceTree = "<group>"; };
+		66BDC86F1D0ACA0C00031794 /* YXLObserverInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLObserverInfo.m; sourceTree = "<group>"; };
+		66BDC8711D0AE4CC00031794 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		66BDC8721D0AE4CC00031794 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BDC8321D0AB4B300031794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BDC84B1D0AB4B300031794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BDC8561D0AB4B300031794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BDC82C1D0AB4B300031794 = {
+			isa = PBXGroup;
+			children = (
+				66BDC8371D0AB4B300031794 /* YXLKVOImplement */,
+				66BDC8511D0AB4B300031794 /* YXLKVOImplementTests */,
+				66BDC85C1D0AB4B300031794 /* YXLKVOImplementUITests */,
+				66BDC8361D0AB4B300031794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66BDC8361D0AB4B300031794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BDC8351D0AB4B300031794 /* YXLKVOImplement.app */,
+				66BDC84E1D0AB4B300031794 /* YXLKVOImplementTests.xctest */,
+				66BDC8591D0AB4B300031794 /* YXLKVOImplementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BDC8371D0AB4B300031794 /* YXLKVOImplement */ = {
+			isa = PBXGroup;
+			children = (
+				66BDC83B1D0AB4B300031794 /* AppDelegate.h */,
+				66BDC83C1D0AB4B300031794 /* AppDelegate.m */,
+				66BDC83E1D0AB4B300031794 /* ViewController.h */,
+				66BDC83F1D0AB4B300031794 /* ViewController.m */,
+				66BDC8711D0AE4CC00031794 /* Person.h */,
+				66BDC8721D0AE4CC00031794 /* Person.m */,
+				66BDC86B1D0AB4C800031794 /* NSObject+YXLKVO.h */,
+				66BDC86C1D0AB4C800031794 /* NSObject+YXLKVO.m */,
+				66BDC86E1D0ACA0C00031794 /* YXLObserverInfo.h */,
+				66BDC86F1D0ACA0C00031794 /* YXLObserverInfo.m */,
+				66BDC8411D0AB4B300031794 /* Main.storyboard */,
+				66BDC8441D0AB4B300031794 /* Assets.xcassets */,
+				66BDC8461D0AB4B300031794 /* LaunchScreen.storyboard */,
+				66BDC8491D0AB4B300031794 /* Info.plist */,
+				66BDC8381D0AB4B300031794 /* Supporting Files */,
+			);
+			path = YXLKVOImplement;
+			sourceTree = "<group>";
+		};
+		66BDC8381D0AB4B300031794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BDC8391D0AB4B300031794 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66BDC8511D0AB4B300031794 /* YXLKVOImplementTests */ = {
+			isa = PBXGroup;
+			children = (
+				66BDC8521D0AB4B300031794 /* YXLKVOImplementTests.m */,
+				66BDC8541D0AB4B300031794 /* Info.plist */,
+			);
+			path = YXLKVOImplementTests;
+			sourceTree = "<group>";
+		};
+		66BDC85C1D0AB4B300031794 /* YXLKVOImplementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66BDC85D1D0AB4B300031794 /* YXLKVOImplementUITests.m */,
+				66BDC85F1D0AB4B300031794 /* Info.plist */,
+			);
+			path = YXLKVOImplementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BDC8341D0AB4B300031794 /* YXLKVOImplement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BDC8621D0AB4B300031794 /* Build configuration list for PBXNativeTarget "YXLKVOImplement" */;
+			buildPhases = (
+				66BDC8311D0AB4B300031794 /* Sources */,
+				66BDC8321D0AB4B300031794 /* Frameworks */,
+				66BDC8331D0AB4B300031794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXLKVOImplement;
+			productName = YXLKVOImplement;
+			productReference = 66BDC8351D0AB4B300031794 /* YXLKVOImplement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66BDC84D1D0AB4B300031794 /* YXLKVOImplementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BDC8651D0AB4B300031794 /* Build configuration list for PBXNativeTarget "YXLKVOImplementTests" */;
+			buildPhases = (
+				66BDC84A1D0AB4B300031794 /* Sources */,
+				66BDC84B1D0AB4B300031794 /* Frameworks */,
+				66BDC84C1D0AB4B300031794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BDC8501D0AB4B300031794 /* PBXTargetDependency */,
+			);
+			name = YXLKVOImplementTests;
+			productName = YXLKVOImplementTests;
+			productReference = 66BDC84E1D0AB4B300031794 /* YXLKVOImplementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66BDC8581D0AB4B300031794 /* YXLKVOImplementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BDC8681D0AB4B300031794 /* Build configuration list for PBXNativeTarget "YXLKVOImplementUITests" */;
+			buildPhases = (
+				66BDC8551D0AB4B300031794 /* Sources */,
+				66BDC8561D0AB4B300031794 /* Frameworks */,
+				66BDC8571D0AB4B300031794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BDC85B1D0AB4B300031794 /* PBXTargetDependency */,
+			);
+			name = YXLKVOImplementUITests;
+			productName = YXLKVOImplementUITests;
+			productReference = 66BDC8591D0AB4B300031794 /* YXLKVOImplementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BDC82D1D0AB4B300031794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tangtang;
+				TargetAttributes = {
+					66BDC8341D0AB4B300031794 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					66BDC84D1D0AB4B300031794 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 66BDC8341D0AB4B300031794;
+					};
+					66BDC8581D0AB4B300031794 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 66BDC8341D0AB4B300031794;
+					};
+				};
+			};
+			buildConfigurationList = 66BDC8301D0AB4B300031794 /* Build configuration list for PBXProject "YXLKVOImplement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BDC82C1D0AB4B300031794;
+			productRefGroup = 66BDC8361D0AB4B300031794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BDC8341D0AB4B300031794 /* YXLKVOImplement */,
+				66BDC84D1D0AB4B300031794 /* YXLKVOImplementTests */,
+				66BDC8581D0AB4B300031794 /* YXLKVOImplementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BDC8331D0AB4B300031794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BDC8481D0AB4B300031794 /* LaunchScreen.storyboard in Resources */,
+				66BDC8451D0AB4B300031794 /* Assets.xcassets in Resources */,
+				66BDC8431D0AB4B300031794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BDC84C1D0AB4B300031794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BDC8571D0AB4B300031794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BDC8311D0AB4B300031794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BDC8731D0AE4CC00031794 /* Person.m in Sources */,
+				66BDC86D1D0AB4C800031794 /* NSObject+YXLKVO.m in Sources */,
+				66BDC8701D0ACA0C00031794 /* YXLObserverInfo.m in Sources */,
+				66BDC8401D0AB4B300031794 /* ViewController.m in Sources */,
+				66BDC83D1D0AB4B300031794 /* AppDelegate.m in Sources */,
+				66BDC83A1D0AB4B300031794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BDC84A1D0AB4B300031794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BDC8531D0AB4B300031794 /* YXLKVOImplementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BDC8551D0AB4B300031794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BDC85E1D0AB4B300031794 /* YXLKVOImplementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BDC8501D0AB4B300031794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BDC8341D0AB4B300031794 /* YXLKVOImplement */;
+			targetProxy = 66BDC84F1D0AB4B300031794 /* PBXContainerItemProxy */;
+		};
+		66BDC85B1D0AB4B300031794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BDC8341D0AB4B300031794 /* YXLKVOImplement */;
+			targetProxy = 66BDC85A1D0AB4B300031794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66BDC8411D0AB4B300031794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BDC8421D0AB4B300031794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66BDC8461D0AB4B300031794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BDC8471D0AB4B300031794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BDC8601D0AB4B300031794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66BDC8611D0AB4B300031794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BDC8631D0AB4B300031794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXLKVOImplement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tang.YXLKVOImplement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66BDC8641D0AB4B300031794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXLKVOImplement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tang.YXLKVOImplement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66BDC8661D0AB4B300031794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXLKVOImplementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tang.YXLKVOImplementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXLKVOImplement.app/YXLKVOImplement";
+			};
+			name = Debug;
+		};
+		66BDC8671D0AB4B300031794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXLKVOImplementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tang.YXLKVOImplementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXLKVOImplement.app/YXLKVOImplement";
+			};
+			name = Release;
+		};
+		66BDC8691D0AB4B300031794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXLKVOImplementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tang.YXLKVOImplementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXLKVOImplement;
+			};
+			name = Debug;
+		};
+		66BDC86A1D0AB4B300031794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXLKVOImplementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tang.YXLKVOImplementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXLKVOImplement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BDC8301D0AB4B300031794 /* Build configuration list for PBXProject "YXLKVOImplement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BDC8601D0AB4B300031794 /* Debug */,
+				66BDC8611D0AB4B300031794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BDC8621D0AB4B300031794 /* Build configuration list for PBXNativeTarget "YXLKVOImplement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BDC8631D0AB4B300031794 /* Debug */,
+				66BDC8641D0AB4B300031794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66BDC8651D0AB4B300031794 /* Build configuration list for PBXNativeTarget "YXLKVOImplementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BDC8661D0AB4B300031794 /* Debug */,
+				66BDC8671D0AB4B300031794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66BDC8681D0AB4B300031794 /* Build configuration list for PBXNativeTarget "YXLKVOImplementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BDC8691D0AB4B300031794 /* Debug */,
+				66BDC86A1D0AB4B300031794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BDC82D1D0AB4B300031794 /* Project object */;
+}
