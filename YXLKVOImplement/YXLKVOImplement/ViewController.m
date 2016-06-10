@@ -41,7 +41,7 @@
 }
 
 - (IBAction)buttonAction:(id)sender {
-    NSArray *array = @[@"jim", @"tom", @"mike", @"jane", @"lisa"];
+    NSArray *array = @[@"jim", @"tom", @"mike", @"jane", @"lisa", @"aa", @"bb", @"cc"];
     self.person.name = array[arc4random() % (array.count)];
 }
 
